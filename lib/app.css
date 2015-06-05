@@ -1,0 +1,64 @@
+.Card {
+  width: 200px;
+  background: #c2ac37;
+  border: 5px solid #808080;
+  border-radius: 0.5em;
+}
+.Card-description {
+  background: #fff;
+  padding: 0.5em;
+  font-size: 12px;
+}
+.Card-image {
+  width: 100%;
+}
+body {
+  font-family: Arial;
+  font-size: 16px;
+  margin: 0;
+}
+.Layout {
+  display: flex;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 1px solid #a52a2a;
+  box-sixing: border-box;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+.Layout > section {
+  margin: 0.5em;
+}
+.Layout-main {
+  display: flex;
+  justify-content: space-between;
+}
+.Layout-status {
+  border: 1px solid #008000;
+  box-sixing: border-box;
+  width: 200px;
+}
+.Layout-battle {
+  border: 1px solid #ffa500;
+  box-sixing: border-box;
+  flex: 1;
+  margin: 0 0.5em;
+}
+.Layout-phases {
+  border: 1px solid #800080;
+  box-sixing: border-box;
+  width: 200px;
+}
+.Layout-antagonist {
+  border: 1px solid #7fffd4;
+  box-sixing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.Layout-player {
+  border: 1px solid #808080;
+  box-sixing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
